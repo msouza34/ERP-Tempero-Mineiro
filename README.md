@@ -1,5 +1,7 @@
 # Tempero Mineiro ERP
 
+[![Backend CI](https://github.com/msouza34/ERP-Tempero-Mineiro/actions/workflows/backend-ci.yml/badge.svg?branch=main)](https://github.com/msouza34/ERP-Tempero-Mineiro/actions/workflows/backend-ci.yml)
+
 Backend para ERP de bares e restaurantes com Spring Boot, PostgreSQL, Docker e Swagger.
 
 ## Tecnologias
@@ -272,4 +274,3 @@ Depois de fazer login no Swagger e autorizar com o token:
 12. Confira o resultado:
 - `GET /dashboard`
 - `GET /relatorios/vendas`
-# ERP-Tempero-Mineiro
