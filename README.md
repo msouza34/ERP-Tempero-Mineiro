@@ -272,3 +272,4 @@ Depois de fazer login no Swagger e autorizar com o token:
 12. Confira o resultado:
 - `GET /dashboard`
 - `GET /relatorios/vendas`
+# ERP-Tempero-Mineiro
