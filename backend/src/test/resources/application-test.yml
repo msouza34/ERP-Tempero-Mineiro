@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:temperomineiro;MODE=PostgreSQL;DB_CLOSE_DELAY=-1;DATABASE_TO_LOWER=TRUE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: false
+  sql:
+    init:
+      mode: never
+
+app:
+  seed:
+    enabled: false
+  jwt:
+    secret: test-secret-key-super-segura-2026
+    expiration-ms: 86400000
